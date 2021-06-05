@@ -247,3 +247,29 @@ button:focus {
   object-fit: cover;
   object-position: center;
 }
+.didYouKnow {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.didYouKnow .imgBlock {
+  height: auto;
+}
+.didYouKnow .imgBlock img {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.didYouKnow .themeHead {
+  padding-bottom: 2rem;
+}
+.didYouKnow .blogDet-head {
+  font-family: "Libre Baskerville", serif;
+}
+.didYouKnow .blogDet p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.didYouKnow .btnRow {
+  justify-content: flex-end;
+}
