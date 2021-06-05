@@ -5,17 +5,20 @@
 /* font-family: 'Karla', sans-serif; */
 
 :root {
-  --primary: #f5ecea;
-  --secondary: #c98882;
+  --primary: #3cacae;
+  --orchid: #c98882;
+  --lilac: #eeb5eb;
+  --orchid: #c26dbc;
+  --turquoise: #c8f4f9;
 }
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
-  background-color: var(--primary);
+  background-color: var(--turquoise);
   font-family: "Karla", sans-serif;
 }
 .navbar.bg-dark {
-  background-color: var(--primary) !important;
+  background-color: var(--turquoise) !important;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #262626;
@@ -30,7 +33,7 @@ body {
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: var(--secondary);
+  color: var(--orchid);
 }
 .navbar-dark .navbar-brand {
   color: #000;
@@ -48,10 +51,10 @@ body {
 .owl-carousel button.owl-dot {
   width: 12px !important;
   height: 12px !important;
-  background: var(--secondary) !important;
+  background: var(--orchid) !important;
   margin: 0.15rem;
   border-radius: 50%;
-  border: 2px solid var(--secondary) !important;
+  border: 2px solid var(--orchid) !important;
 }
 .owl-carousel .owl-dots {
   display: flex;
@@ -92,7 +95,7 @@ button:focus {
 
 .bannerForm .btn-primary {
   width: 100%;
-  background-color: var(--secondary);
+  background-color: var(--orchid);
   border-radius: 0;
   height: 3rem;
   color: white;
@@ -111,7 +114,7 @@ button:focus {
   width: 100%;
 }
 .blogCont a.blogHead {
-  color: #c98882;
+  color: var(--orchid);
   font-size: 1.2rem;
   padding-top: 0.75rem;
   display: block;
@@ -121,12 +124,12 @@ button:focus {
   text-decoration: none;
 }
 .themeBtn {
-  color: #c98882;
+  color: var(--orchid);
   text-decoration: none;
   display: block;
 }
 .themeBtn:hover {
-  color: #c98882;
+  color: var(--lilac);
   transition: 0.3s ease-in-out;
   transform: translateY(-5px);
 }
@@ -160,13 +163,35 @@ button:focus {
   justify-content: center;
 }
 .btnRow .btn-primary {
-  background-color: var(--secondary);
+  background-color: var(--orchid);
   border-radius: 0;
   height: 3rem;
-  color: white;
+  color: white !important;
   display: flex;
   align-items: center;
   justify-content: center;
   border: none;
   width: 200px;
+}
+.btnRow .btn-primary:hover {
+  background-color: var(--lilac);
+}
+.whyOurBlog {
+  padding: 5rem 0;
+}
+.whyOurBlog .themeHead h2 {
+  text-align: left !important;
+}
+.whyOurBlog .divider .line1,
+.divider .line2 {
+  margin: 3px 0 !important;
+}
+.whyblogImg {
+  height: auto;
+}
+.whyblogImg img {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
 }
