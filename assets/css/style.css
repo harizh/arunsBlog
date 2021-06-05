@@ -105,3 +105,68 @@ button:focus {
   border: none;
   box-shadow: none;
 }
+.latestBlogs {
+  padding: 5rem 0;
+  background-color: #fff;
+  width: 100%;
+}
+.blogCont a.blogHead {
+  color: #c98882;
+  font-size: 1.2rem;
+  padding-top: 0.75rem;
+  display: block;
+  line-height: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+.themeBtn {
+  color: #c98882;
+  text-decoration: none;
+  display: block;
+}
+.themeBtn:hover {
+  color: #c98882;
+  transition: 0.3s ease-in-out;
+  transform: translateY(-5px);
+}
+#blogsCarousel button.owl-dot.active {
+  background: #fff !important;
+}
+.divider {
+  margin: 30px 0;
+}
+
+.divider .line1 {
+  width: 50px;
+}
+.divider .line1,
+.divider .line2 {
+  height: 1px;
+  background-color: #c98882;
+  margin: 3px auto;
+}
+.divider .line2 {
+  width: 200px;
+}
+.themeHead h2 {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.btnRow {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.btnRow .btn-primary {
+  background-color: var(--secondary);
+  border-radius: 0;
+  height: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 200px;
+}
