@@ -48,17 +48,17 @@ $('#popularblogsCarousel').owlCarousel({
     autoplayHoverPause:true,
     loop:true,
     dots : true,
-    margin:10,
+    margin:20,
     nav:false,
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:2
+            items:1
         },
         1000:{
-            items:4
+            items:3
         }
     }
 })

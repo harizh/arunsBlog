@@ -193,6 +193,7 @@ button:focus {
 .whyOurBlog .divider .line2 {
   margin: 3px 0 !important;
 }
+
 .whyblogImg {
   height: auto;
 }
@@ -251,25 +252,76 @@ button:focus {
   padding: 5rem 0;
   background-color: #fff;
 }
-.didYouKnow .imgBlock {
+.readerStory {
+  padding: 5rem 0;
+}
+.didYouKnow .imgBlock,
+.readerStory .imgBlock {
   height: auto;
 }
-.didYouKnow .imgBlock img {
+.didYouKnow .imgBlock img,
+.readerStory .imgBlock img {
   height: 100%;
   width: 100%;
   object-position: center;
   object-fit: cover;
 }
-.didYouKnow .themeHead {
+.didYouKnow .themeHead,
+.readerStory .themeHead {
   padding-bottom: 2rem;
 }
-.didYouKnow .blogDet-head {
+.didYouKnow .blogDet-head,
+.readerStory .blogDet-head {
   font-family: "Libre Baskerville", serif;
 }
-.didYouKnow .blogDet p {
+.didYouKnow .blogDet p,
+.readerStory .blogDet p {
   font-size: 1rem;
   font-weight: 300;
 }
-.didYouKnow .btnRow {
+.didYouKnow .btnRow,
+.readerStory .btnRow {
   justify-content: flex-end;
+}
+
+.aboutUs {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.aboutUs .themeHead h2 {
+  text-align: left !important;
+}
+.aboutUs .divider .line1,
+.aboutUs .divider .line2 {
+  margin: 3px 0 !important;
+}
+.nameHead {
+  font-family: "Libre Baskerville", serif;
+}
+.aboutUs p {
+  font-weight: 300;
+}
+.followHead {
+  font-family: "Libre Baskerville", serif;
+  padding-top: 2rem;
+}
+.socialMedia {
+  list-style: none;
+  padding-left: 0;
+}
+.socialMedia li {
+  display: inline-block;
+}
+.socialMedia li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary);
+  color: #fff;
+  text-decoration: none;
+}
+.socialMedia li a:hover {
+  background-color: var(--orchid);
 }
