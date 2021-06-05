@@ -325,3 +325,42 @@ button:focus {
 .socialMedia li a:hover {
   background-color: var(--orchid);
 }
+footer {
+  background-color: #262626;
+  padding: 5rem 0;
+}
+.footer-menu {
+  list-style: none;
+  padding-left: 0;
+}
+.footer-menu li {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 3px 0;
+  font-size: 0.95rem;
+}
+.footer-menu li a {
+  color: #fff;
+  text-transform: uppercase;
+}
+footer .subscription h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+footer .subscription p {
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 300;
+}
+.bannerForm .form-control {
+  border-radius: 0;
+}
+footer .socialMedia li a {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #ffff;
+  margin-right: 5px;
+}
