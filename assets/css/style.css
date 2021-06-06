@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /* font-family: 'Libre Baskerville', serif; */
 /* font-family: 'Karla', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
 
 :root {
   --primary: #3cacae;
@@ -11,11 +13,14 @@
   --orchid: #c26dbc;
   --turquoise: #c8f4f9;
 }
+.row {
+  margin: 0 !important;
+}
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
   background-color: var(--turquoise);
-  font-family: "Karla", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .navbar.bg-dark {
   background-color: var(--turquoise) !important;
@@ -116,7 +121,7 @@ button:focus {
 .latestBlogs,
 .popularBlogs {
   padding: 5rem 0;
-  background-color: #fff;
+  background-color: #faf8f0;
   width: 100%;
 }
 .blogCont a.blogHead {
@@ -141,7 +146,7 @@ button:focus {
 }
 #blogsCarousel button.owl-dot.active,
 #popularblogsCarousel button.owl-dot.active {
-  background: #fff !important;
+  background: #faf8f0 !important;
 }
 .divider {
   margin: 30px 0;
@@ -193,6 +198,12 @@ button:focus {
 .whyOurBlog .divider .line2 {
   margin: 3px 0 !important;
 }
+.blogImg img {
+  height: 15rem;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
 
 .whyblogImg {
   height: auto;
@@ -226,7 +237,7 @@ button:focus {
   box-shadow: 7px 5px 10px -5px rgba(0, 0, 0, 0.49);
   -webkit-box-shadow: 7px 5px 10px -5px rgba(0, 0, 0, 0.49);
   -moz-box-shadow: 7px 5px 10px -5px rgba(0, 0, 0, 0.49);
-  background-color: #ffffff;
+  background-color: #faf8f0;
   padding: 2rem 1rem;
   display: block;
   margin-top: 15px;
@@ -250,7 +261,7 @@ button:focus {
 }
 .didYouKnow {
   padding: 5rem 0;
-  background-color: #fff;
+  background-color: #faf8f0;
 }
 .readerStory {
   padding: 5rem 0;
@@ -286,7 +297,7 @@ button:focus {
 
 .aboutUs {
   padding: 5rem 0;
-  background-color: #fff;
+  background-color: #faf8f0;
 }
 .aboutUs .themeHead h2 {
   text-align: left !important;
@@ -363,4 +374,42 @@ footer .socialMedia li a {
   background-color: transparent;
   border: 1px solid #ffff;
   margin-right: 5px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 767px) {
+  .bannerContent h1 {
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+  .blogCard {
+    margin: 15px 0;
+  }
+  .themeHead h2 {
+    font-size: 1.5rem;
+  }
+  .didYouKnow .blogDet-head,
+  .readerStory .blogDet-head {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+  .didYouKnow .btnRow,
+  .readerStory .btnRow {
+    justify-content: center;
+  }
+  .didYouKnow .themeHead,
+  .readerStory .themeHead {
+    padding: 0rem;
+  }
+  .didYouKnow .blogDet-head,
+  .readerStory .blogDet-head {
+    text-align: center;
+  }
+  .didYouKnow .blogDet p,
+  .readerStory .blogDet p {
+    text-align: center;
+  }
+  .navbar.bg-dark {
+    min-height: auto;
+  }
 }

@@ -21,44 +21,44 @@ $('.bannerCarousel').owlCarousel({
 
 
 
-$('#blogsCarousel').owlCarousel({
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    loop:true,
-    dots : true,
-    margin:30,
-    nav:false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:3
-        }
-    }
-})
+// $('#blogsCarousel').owlCarousel({
+//     autoplay:true,
+//     autoplayTimeout:3000,
+//     autoplayHoverPause:true,
+//     loop:true,
+//     dots : true,
+//     margin:30,
+//     nav:false,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:1
+//         },
+//         1000:{
+//             items:3
+//         }
+//     }
+// })
 
-$('#popularblogsCarousel').owlCarousel({
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    loop:true,
-    dots : true,
-    margin:20,
-    nav:false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:3
-        }
-    }
-})
+// $('#popularblogsCarousel').owlCarousel({
+//     autoplay:true,
+//     autoplayTimeout:3000,
+//     autoplayHoverPause:true,
+//     loop:true,
+//     dots : true,
+//     margin:20,
+//     nav:false,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:1
+//         },
+//         1000:{
+//             items:3
+//         }
+//     }
+// })
