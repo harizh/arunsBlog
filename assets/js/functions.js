@@ -62,3 +62,4 @@ $('#latest-blog-carousel').owlCarousel({
         }
     }
 })
+

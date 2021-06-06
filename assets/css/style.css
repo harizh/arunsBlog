@@ -80,6 +80,12 @@ button.owl-dot.active {
 .btnRow {
   padding: 0;
 }
+.topCategories .themeBtn {
+  text-align: center;
+}
+.storySection .themeBtn {
+  text-align: right;
+}
 
 .bannerContent h1 {
   font-family: "Libre Baskerville", serif;
@@ -445,7 +451,7 @@ p.auther {
   font-weight: 600 !important;
 }
 .cat-card img {
-  height: 7rem;
+  height: 6rem;
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -456,7 +462,7 @@ p.auther {
   transition: 0.3s ease-in-out;
 }
 .catefories {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .overLay {
   position: absolute;
@@ -537,6 +543,58 @@ p.auther {
 .subscribeSec {
   padding: 5rem 0;
   text-align: center;
+}
+
+.showItems .itemCard {
+  display: none;
+}
+
+#loadMore.btn-primary {
+  cursor: pointer;
+  background-color: var(--orchid);
+  border-radius: 0;
+  height: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 150px;
+}
+
+#loadMore.btn-primary {
+  cursor: pointer;
+  background-color: var(--orchid);
+  border-radius: 0;
+  height: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 150px;
+}
+#loadMore:hover {
+  color: black;
+}
+#showLess.btn-primary {
+  cursor: pointer;
+  background-color: var(--lilac);
+  border-radius: 0;
+  height: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 150px;
+}
+#showLess {
+  color: red;
+  cursor: pointer;
+}
+#showLess:hover {
+  color: black;
 }
 
 /* Responsive */
