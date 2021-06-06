@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.hml">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -45,50 +45,115 @@
 
 
     <main role="main" class="container-fluid p-0">
-        
-        <section class="banner">
+
+
+        <section class="pageHeader bg-wh pb-0">
             <div class="container">
                 <div class="row">
+                    <div class="col-md-12">
+                        <div class="themeHead">
+                            <h2>Blogs</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi vero neque corrupti, odio
+                                deleniti.</p>
+                            <div class="divider">
+                                <hr class="line2">
+                                <hr class="line1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
 
 
-                    <div class="col-md-6">
-                        <div class="owl-carousel owl-theme bannerCarousel">
-                            <div class="item">
-                                <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2020/02/health-fitness-banner.jpg">
+        <section class="readerStory bg-wh">
+            <div class="container">
+        
+                <div class="row">
+
+                    <div class="col-md-5 imgBlock">
+                        <img src="assets/img/blogImg01.jpg">
+                    </div>
+        
+                    <div class="col-md-7 blogDet">
+                        <h3 class="blogDet-head">Well-tested interesting recipes</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, eius. Voluptates, cum illo fuga
+                            deserunt ipsa unde modi fugit praesentium et possimus tempora! Dignissimos ut accusamus asperiores
+                            ex corrupti architecto!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, eius. Voluptates, cum illo fuga
+                            deserunt ipsa unde
+                            modi fugit praesentium et possimus tempora! Dignissimos ut accusamus asperiores ex corrupti
+                            architecto! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, eius. Voluptates, cum
+                            illo fuga deserunt ipsa unde
+                            modi fugit praesentium et possimus tempora! Dignissimos ut accusamus asperiores ex corrupti
+                            architecto!</p>
+
+                            <p class="auther">By Ziya Eshal (Nov 12, 2020)</p>
+        
+                        <!-- <p class="w-100 btnRow">
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </p> -->
+                    </div>
+        
+                    
+        
+                </div>
+            </div>
+        </section>
+
+        <section class="catefories">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-md-12">
+                        <div class="themeHead">
+                            <h2>Categories</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi vero neque corrupti, odio
+                                deleniti.</p>
+                            <div class="divider">
+                                <hr class="line2">
+                                <hr class="line1">
                             </div>
-                            <!-- <div class="item">
-                                <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2019/04/about.jpg">
-                            </div>
-                            <div class="item">
-                                <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-1.jpg">
-                            </div> -->
                         </div>
                     </div>
 
 
-                    <div class="col-md-6 banCon">
-                        <div class="bannerContent">
-
-                            <h1>Stay Healthy!
-                            Stay Fit!</h1>
-
-                            <h4>Click here to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper mattis.</h4>
-
-                            <form class="bannerForm">
-                                <div class="row">
-                                    <div class="form-group col-md-9 mb-2">
-                                        <label for="email" class="sr-only">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Enter Email Address">
-                                    </div>
-
-                                    <div class="col-md-3 btnRow pt-0">
-                                        <a  class="btn btn-primary mb-2">Subscribe</a>
-                                    </div>
-                                </div>
-                                
-                            </form>
-
+                    <div class="col-md">
+                        <div class="cat-card">
+                            <img src="assets/img/img01.jpg">
+                            <a href="#" class="overLay">
+                                MIND
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="cat-card">
+                            <img src="assets/img/img02.jpg">
+                            <a href="#" class="overLay">
+                                SOUL
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="cat-card">
+                            <img src="assets/img/img03.jpg">
+                            <a href="#" class="overLay">
+                                Relationship
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="cat-card">
+                            <img src="assets/img/img04.jpg">
+                            <a href="#" class="overLay">
+                                Work
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="cat-card">
+                            <img src="assets/img/img05.jpg">
+                            <a href="#" class="overLay">
+                                Performance
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -108,9 +173,9 @@
                         </div>
                     </div>
 
-                    <div class="row m-0" id="blogsCarousel">
+                    <div class="owl-carousel owl-theme" id="latest-blog-carousel">
 
-                        <div class="item col-md-4">
+                        <div class="item">
                             <div class="blogCard">
                                 <div class="blogImg">
                                     <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-1.jpg">
@@ -125,7 +190,7 @@
                             </div>
                         </div>
 
-                        <div class="item col-md-4">
+                        <div class="item">
                             <div class="blogCard">
                                 <div class="blogImg">
                                     <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-2.jpg">
@@ -141,7 +206,55 @@
                             </div>
                         </div>
 
-                        <div class="item col-md-4">
+                        <div class="item">
+                            <div class="blogCard">
+                                <div class="blogImg">
+                                    <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-3.jpg">
+                                </div>
+                                <div class="blogCont">
+                                    <a href="#" class="blogHead">How to Stay Fit in Busy Schedule?</a>
+                                    <p class="blogDate">December 26, 2018</p>
+                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus molestie malesuada.
+                                        Nulla cursus leo eu eros
+                                        vestibulum mattis. …</p>
+                                    <a href="#" class="themeBtn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="blogCard">
+                                <div class="blogImg">
+                                    <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-1.jpg">
+                                </div>
+                                <div class="blogCont">
+                                    <a href="#" class="blogHead">How to Stay Fit in Busy Schedule?</a>
+                                    <p class="blogDate">December 26, 2018</p>
+                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus molestie malesuada.
+                                        Nulla cursus leo eu eros
+                                        vestibulum mattis. …</p>
+                                    <a href="#" class="themeBtn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <div class="blogCard">
+                                <div class="blogImg">
+                                    <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-2.jpg">
+                                </div>
+                                <div class="blogCont">
+                                    <a href="#" class="blogHead">How to Stay Fit in Busy Schedule?</a>
+                                    <p class="blogDate">December 26, 2018</p>
+                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus molestie malesuada.
+                                        Nulla cursus leo eu eros
+                                        vestibulum mattis. …</p>
+                                    <a href="#" class="themeBtn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
                             <div class="blogCard">
                                 <div class="blogImg">
                                     <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-3.jpg">
@@ -167,39 +280,12 @@
             </div>
         </section>
 
-        <section class="whyOurBlog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                    
-                        <div class="themeHead">
-                            <h2>Why Read Our Blog</h2>
-                            <div class="divider">
-                                <hr class="line2">
-                                <hr class="line1">
-                            </div>
-                        </div>
-                    
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus iure velit commodi doloremque, veniam enim
-                            minus asperiores alias ducimus eligendi accusantium? Ipsum veritatis et, voluptates ex non est quidem ad!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus iure velit commodi doloremque, veniam enim
-                            minus
-                            asperiores alias ducimus eligendi accusantium? Ipsum veritatis et, voluptates ex non est quidem ad!</p>
-                    
-                    </div>
-                    <div class="col-md-5 whyblogImg">
-                        <img src="assets/img/whyBlog.png">
-                    </div>
-                </div>
 
-            </div>
-        </section>
-
-        <section class="popularBlogs">
+        <section class="popularBlogs blogSec">
             <div class="container">
                 <div class="row">
                     <div class="container themeHead">
-                        <h2>Poplar Blogs</h2>
+                        <h2>Popular Blogs</h2>
                         <div class="divider">
                             <hr class="line1">
                             <hr class="line2">
@@ -207,62 +293,110 @@
                         </div>
                     </div>
         
-                    <div class="row m-0" id="popularblogsCarousel">
-        
-                        <div class="item col-md-4">
+                    <div class="owl-carousel owl-theme" id="popular-blog-carousel">
+                    
+                        <div class="item">
                             <div class="blogCard">
                                 <div class="blogImg">
-                                    <img
-                                        src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-1.jpg">
+                                    <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-1.jpg">
                                 </div>
                                 <div class="blogCont">
                                     <a href="#" class="blogHead">How to Stay Fit in Busy Schedule?</a>
                                     <p class="blogDate">December 26, 2018</p>
-                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus
-                                        molestie malesuada. Nulla cursus leo eu eros
+                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus molestie
+                                        malesuada. Nulla cursus leo eu eros
                                         vestibulum mattis. …</p>
                                     <a href="#" class="themeBtn">Read More</a>
                                 </div>
                             </div>
                         </div>
-        
-                        <div class="item col-md-4">
+                    
+                        <div class="item">
                             <div class="blogCard">
                                 <div class="blogImg">
-                                    <img
-                                        src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-2.jpg">
+                                    <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-2.jpg">
                                 </div>
                                 <div class="blogCont">
                                     <a href="#" class="blogHead">How to Stay Fit in Busy Schedule?</a>
                                     <p class="blogDate">December 26, 2018</p>
-                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus
-                                        molestie malesuada.
+                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus molestie
+                                        malesuada.
                                         Nulla cursus leo eu eros
                                         vestibulum mattis. …</p>
                                     <a href="#" class="themeBtn">Read More</a>
                                 </div>
                             </div>
                         </div>
-        
-                        <div class="item col-md-4">
+                    
+                        <div class="item">
                             <div class="blogCard">
                                 <div class="blogImg">
-                                    <img
-                                        src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-3.jpg">
+                                    <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-3.jpg">
                                 </div>
                                 <div class="blogCont">
                                     <a href="#" class="blogHead">How to Stay Fit in Busy Schedule?</a>
                                     <p class="blogDate">December 26, 2018</p>
-                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus
-                                        molestie malesuada.
+                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus molestie
+                                        malesuada.
                                         Nulla cursus leo eu eros
                                         vestibulum mattis. …</p>
                                     <a href="#" class="themeBtn">Read More</a>
                                 </div>
                             </div>
                         </div>
-                        
-        
+                    
+                        <div class="item">
+                            <div class="blogCard">
+                                <div class="blogImg">
+                                    <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-1.jpg">
+                                </div>
+                                <div class="blogCont">
+                                    <a href="#" class="blogHead">How to Stay Fit in Busy Schedule?</a>
+                                    <p class="blogDate">December 26, 2018</p>
+                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus molestie
+                                        malesuada.
+                                        Nulla cursus leo eu eros
+                                        vestibulum mattis. …</p>
+                                    <a href="#" class="themeBtn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="item">
+                            <div class="blogCard">
+                                <div class="blogImg">
+                                    <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-2.jpg">
+                                </div>
+                                <div class="blogCont">
+                                    <a href="#" class="blogHead">How to Stay Fit in Busy Schedule?</a>
+                                    <p class="blogDate">December 26, 2018</p>
+                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus molestie
+                                        malesuada.
+                                        Nulla cursus leo eu eros
+                                        vestibulum mattis. …</p>
+                                    <a href="#" class="themeBtn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="item">
+                            <div class="blogCard">
+                                <div class="blogImg">
+                                    <img src="https://websitedemos.net/health-fitness-08/wp-content/uploads/sites/706/2018/12/blog-3.jpg">
+                                </div>
+                                <div class="blogCont">
+                                    <a href="#" class="blogHead">How to Stay Fit in Busy Schedule?</a>
+                                    <p class="blogDate">December 26, 2018</p>
+                                    <p class="blogCont">Nulla facilisi. Duis vel magna turpis. Nullam rutrum urna ut metus molestie
+                                        malesuada.
+                                        Nulla cursus leo eu eros
+                                        vestibulum mattis. …</p>
+                                    <a href="#" class="themeBtn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
                     </div>
         
                     <p class="w-100 btnRow">
@@ -272,184 +406,146 @@
             </div>
         </section>
 
-        <section class="topCategories">
+        <section class="storySection bg-wh">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 themeHead">
-                        <h2>Top Categories</h2>
-                        <div class="divider">
-                            <hr class="line1">
-                            <hr class="line2">
-                            <hr class="line1">
-                        </div>
-                    </div>
 
-                    <div class="col-md-3">
-                        <a class="categoryCard" href="#">
-                            <div class="cat-img">
-                                <!-- <img src="https://img-premium.flaticon.com/png/512/2452/2452008.png?token=exp=1622914092~hmac=ae70c50cdfa139a1b882d94da13d806a"> -->
-                                <img src="assets/img/icon01.png">
-                            </div>
-                            <h3 class="cat-head">Detailed Recipes</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores beatae illum laborum adipisci</p>
-                        </a>
-                    </div>
-                    
-                    <div class="col-md-3">
-                        <a class="categoryCard" href="#">
-                            <div class="cat-img">
-                                <!-- <img
-                                    src="https://img-premium.flaticon.com/png/512/2451/2451971.png?token=exp=1622914440~hmac=b18ba807fe1f811d59c5a2fa03bc802b"> -->
-                                <img src="assets/img/icon02.png">
-                            </div>
-                            <h3 class="cat-head">Chat Meals</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores beatae illum laborum adipisci</p>
-                        </a>
-                    </div>
-
-                    <div class="col-md-3">
-                        <a class="categoryCard" href="#">
-                            <div class="cat-img">
-                                <!-- <img
-                                    src="https://img-premium.flaticon.com/png/512/4260/4260698.png?token=exp=1622914405~hmac=6c068890ad18bf93fc757f046fd55600"> -->
-                                <img src="assets/img/icon03.png">
-                            </div>
-                            <h3 class="cat-head">Cooking Tips</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores beatae illum laborum adipisci</p>
-                        </a>
-                    </div>
-
-                    <div class="col-md-3">
-                        <a class="categoryCard" href="#">
-                            <div class="cat-img">
-                                <!-- <img
-                                    src="https://img-premium.flaticon.com/png/512/4444/4444116.png?token=exp=1622914355~hmac=e5a2a9c1c7e120f90b4dafea57f6abac"> -->
-                                <img src="assets/img/icon04.png">
-                            </div>
-                            <h3 class="cat-head">Healthy Foods</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores beatae illum laborum adipisci</p>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="didYouKnow">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-12 themeHead">
-                        <h2>Did you Know ?</h2>
-                        <div class="divider">
-                            <hr class="line1">
-                            <hr class="line2">
-                            <hr class="line1">
-                        </div>
-                    </div>
-
-                    <div class="col-md-5 imgBlock">
-                        <img src="assets/img/blogImg01.jpg">
-                    </div>
-
-                    <div class="col-md-7 blogDet">
-                        <h3 class="blogDet-head">Well-tested interesting recipes</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, eius. Voluptates, cum illo fuga deserunt ipsa unde modi fugit praesentium et possimus tempora! Dignissimos ut accusamus asperiores ex corrupti architecto!</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, eius. Voluptates, cum illo fuga deserunt ipsa unde
-                        modi fugit praesentium et possimus tempora! Dignissimos ut accusamus asperiores ex corrupti architecto! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, eius. Voluptates, cum illo fuga deserunt ipsa unde
-                        modi fugit praesentium et possimus tempora! Dignissimos ut accusamus asperiores ex corrupti architecto!</p>
-
-                        <p class="w-100 btnRow">
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <section class="readerStory">
-            <div class="container">
-        
-                <div class="row">
-                    <div class="col-md-12 themeHead">
-                        <h2>Readers Story</h2>
-                        <div class="divider">
-                            <hr class="line1">
-                            <hr class="line2">
-                            <hr class="line1">
-                        </div>
-                    </div>
-                   
-        
-                    <div class="col-md-8 blogDet">
-                        <h3 class="blogDet-head">Well-tested interesting recipes</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, eius. Voluptates, cum illo fuga
-                            deserunt ipsa unde modi fugit praesentium et possimus tempora! Dignissimos ut accusamus asperiores
-                            ex corrupti architecto!</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, eius. Voluptates, cum illo fuga
-                            deserunt ipsa unde
-                            modi fugit praesentium et possimus tempora! Dignissimos ut accusamus asperiores ex corrupti
-                            architecto! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, eius. Voluptates, cum
-                            illo fuga deserunt ipsa unde
-                            modi fugit praesentium et possimus tempora! Dignissimos ut accusamus asperiores ex corrupti
-                            architecto!</p>
-        
-                        <p class="w-100 btnRow">
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </p>
-                    </div>
-
-                    <div class="col-md-4 imgBlock">
-                        <img src="assets/img/blogImg01.jpg">
-                    </div>
-        
-                </div>
-            </div>
-        </section>
-
-        <section class="aboutUs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-        
+                    <div class="col-md-12">
                         <div class="themeHead">
-                            <h2>About</h2>
+                            <h2>Celebrity Story</h2>
                             <div class="divider">
-                                <hr class="line2">
                                 <hr class="line1">
+                                <hr class="line2">
                             </div>
                         </div>
-
-                        <h3 class="nameHead">Ziya Eshaal</h3>
-        
-                        <p class="aboutDetail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus iure velit commodi doloremque,
-                            veniam enim
-                            minus asperiores alias ducimus eligendi accusantium? Ipsum veritatis et, voluptates ex non est
-                            quidem ad!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus iure velit commodi doloremque,
-                            veniam enim
-                            minus
-                            asperiores alias ducimus eligendi accusantium? Ipsum veritatis et, voluptates ex non est quidem ad!
-                        </p>
-                        <h5 class="followHead">Follow</h5>
-                        <ul class="socialMedia">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        </ul>
-        
                     </div>
-                    <div class="col-md-5 whyblogImg">
-                        <img src="assets/img/prifileImg.jpg">
+
+                    <div class="col-md-6">
+                        <a href="" class="storCard">
+                            <div class="row">
+                                <div class="col-md-3 imgBox p-0">
+                                        <img src="assets/img/img01.jpg">
+                                </div>
+                                <div class="col-md-9 storyCont">
+                                    <h3>The Mindvalley Broadcast</h3>
+                                    <p class="auther">by Arjun Raj</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quidem, iusto soluta rerum ullam minima qui earum</p>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6">
+                        <a href="" class="storCard">
+                            <div class="row">
+                                <div class="col-md-3 imgBox p-0">
+                                    <img src="assets/img/img01.jpg">
+                                </div>
+                                <div class="col-md-9 storyCont">
+                                    <h3>The Mindvalley Broadcast</h3>
+                                    <p class="auther">by Arjun Raj</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quidem, iusto soluta rerum ullam minima qui
+                                        earum</p>
+                            
+                                </div>
+                            </div>
+                        </a>
+                    
                     </div>
                 </div>
-        
             </div>
         </section>
 
+
+        <section class="storySection">
+            <div class="container">
+                <div class="row">
+        
+                    <div class="col-md-12">
+                        <div class="themeHead">
+                            <h2>Reders Story</h2>
+                            <div class="divider">
+                                <hr class="line1">
+                                <hr class="line2">
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                        <a href="" class="storCard">
+                            <div class="row">
+                                <div class="col-md-3 imgBox p-0">
+                                    <img src="assets/img/img01.jpg">
+                                </div>
+                                <div class="col-md-9 storyCont">
+                                    <h3>The Mindvalley Broadcast</h3>
+                                    <p class="auther">by Arjun Raj</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quidem, iusto soluta rerum
+                                        ullam minima qui earum</p>
+        
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="col-md-6">
+                        <a href="" class="storCard">
+                            <div class="row">
+                                <div class="col-md-3 imgBox p-0">
+                                    <img src="assets/img/img01.jpg">
+                                </div>
+                                <div class="col-md-9 storyCont">
+                                    <h3>The Mindvalley Broadcast</h3>
+                                    <p class="auther">by Arjun Raj</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quidem, iusto soluta rerum
+                                        ullam minima qui
+                                        earum</p>
+        
+                                </div>
+                            </div>
+                        </a>
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribeSec bg-wh">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-9">
+                        <h2>Stay update with us by signing up for our newsletter.</h2>
+                        <div class="divider">
+                            <hr class="line2">
+                            <hr class="line1">                            
+                        </div>
+
+                        <form class="bannerForm">
+                            <div class="row">
+                                <div class="form-group col-md-9 mb-2">
+                                    <label for="email" class="sr-only">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter Email Address">
+                                </div>
+                        
+                                <div class="col-md-3 btnRow pt-0">
+                                    <a class="btn btn-primary mb-2">Subscribe</a>
+                                </div>
+                            </div>
+                        
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+       
+
+      
+
+        
     </main>
 
     <footer>
