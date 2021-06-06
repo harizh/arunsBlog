@@ -375,6 +375,23 @@ footer .socialMedia li a {
   border: 1px solid #ffff;
   margin-right: 5px;
 }
+.myStory,
+.myStry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headPara {
+  padding: 0 15%;
+  text-align: center;
+}
+.topCategories.joinOurBlog-wt {
+  background-color: #faf8f0;
+}
+.btnRow.joinBtn .btn-primary {
+  width: 250px !important;
+}
 
 /* Responsive */
 @media only screen and (max-width: 767px) {
