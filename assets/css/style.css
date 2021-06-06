@@ -392,6 +392,16 @@ footer .socialMedia li a {
 .btnRow.joinBtn .btn-primary {
   width: 250px !important;
 }
+.bg-wh {
+  background-color: #faf8f0;
+}
+.pageHeader {
+  padding: 5rem 0;
+}
+.pageHeader p {
+  padding: 0 15%;
+  text-align: center;
+}
 
 /* Responsive */
 @media only screen and (max-width: 767px) {
