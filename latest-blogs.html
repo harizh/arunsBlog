@@ -52,7 +52,12 @@
             <div class="container">
                 <div class="row">
                     <div class="container themeHead">
-                        <h2 class="text-left">Category 1</h2>                       
+                        <h2>Latest Blogs</h2>
+                        <div class="divider">
+                            <hr class="line1">
+                            <hr class="line2">
+                            <hr class="line1">
+                        </div>
                     </div>
 
                     <div class="row showItems w-100">
@@ -393,7 +398,7 @@
     $(document).ready(function () {
         card_count = $(".showItems .itemCard").length;
         var x = 6;
-        if (x == 3) {
+        if (x == 6) {
             $('#showLess').hide();
         }
         
@@ -411,7 +416,7 @@
             $('.showItems .itemCard').not(':lt(' + x + ')').hide();
             $('#loadMore').show();
             $('#showLess').show();
-            if (x == 3) {
+            if (x == 6) {
                 $('#showLess').hide();
             }
         });
