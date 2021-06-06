@@ -398,9 +398,42 @@ footer .socialMedia li a {
 .pageHeader {
   padding: 5rem 0;
 }
-.pageHeader p {
+.themeHead p {
   padding: 0 15%;
   text-align: center;
+}
+.contactForm {
+  padding: 1% 10%;
+}
+.pd-5 {
+  padding: 0.5rem !important;
+}
+.d-flex-row-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.joinUs {
+  background-color: #faf8f0;
+}
+.joinUs img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 35rem;
+}
+.joinUs h2 {
+  text-align: center;
+}
+.joinUs p {
+  padding: 1rem 2rem;
+}
+.joinUs .contactForm {
+  padding: 1% 5%;
+}
+.contactForm .form-control {
+  border: 1px solid rgb(194 109 188);
 }
 
 /* Responsive */
