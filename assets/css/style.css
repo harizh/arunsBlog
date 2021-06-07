@@ -544,9 +544,39 @@ p.auther {
   padding: 5rem 0;
   text-align: center;
 }
-
+.blogView-imageBox {
+  height: 35rem;
+}
+.blogView-imageBox img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
 .showItems .itemCard {
   display: none;
+}
+.blogDetais {
+  background-color: #faf8f0;
+  position: relative;
+  margin-top: -15%;
+  padding: 4rem 2.5rem;
+}
+.blogDetais h2 {
+  font-family: "Libre Baskerville", serif;
+  padding-bottom: 2rem;
+}
+.blogDetais ul {
+  list-style: none;
+  padding-left: 0;
+}
+.blogDetais ul li {
+  display: inline-block;
+  padding-right: 1rem;
+  color: var(--orchid);
+}
+.blogView {
+  padding-bottom: 5rem;
 }
 
 #loadMore.btn-primary {
