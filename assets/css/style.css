@@ -578,6 +578,36 @@ p.auther {
 .blogView {
   padding-bottom: 5rem;
 }
+.autherDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.autherDp {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.autherDp img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.autherDetail {
+  padding: 0 1.5rem;
+}
+.autherDetail h5 {
+  font-size: 1rem;
+}
+.autherDetail p {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+.autherDetails {
+  margin-top: 3rem;
+}
 
 #loadMore.btn-primary {
   cursor: pointer;
